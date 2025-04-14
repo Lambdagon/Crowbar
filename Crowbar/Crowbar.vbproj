@@ -453,6 +453,7 @@
     <Compile Include="Core\SteamAppInfos\FirefightReloadedSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\HuntDownTheFreemanSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\FortressConnectedSteamAppInfo.vb" />
+	<Compile Include="Core\SteamAppInfos\SynergySteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\JBModSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\WilsonChroniclesSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\MilitaryConflictVietnamSteamAppInfo.vb" />
@@ -773,6 +774,12 @@
       <DependentUpon>FortressConnectedTagsUserControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Widgets\Publish SteamApp Tags\FortressConnectedTagsUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+	<Compile Include="Widgets\Publish SteamApp Tags\SynergyTagsUserControl.Designer.vb">
+      <DependentUpon>SynergyTagsUserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\Publish SteamApp Tags\SynergyTagsUserControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Widgets\Publish SteamApp Tags\JBModTagsUserControl.Designer.vb">

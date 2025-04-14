@@ -79,6 +79,8 @@ Public Class SteamAppInfoBase
 		steamAppInfos.Add(anAppInfo)
 		anAppInfo = New FortressConnectedSteamAppInfo()
 		steamAppInfos.Add(anAppInfo)
+		anAppInfo = New SynergySteamAppInfo()
+		steamAppInfos.Add(anAppInfo)
 
 		Return steamAppInfos
 	End Function
