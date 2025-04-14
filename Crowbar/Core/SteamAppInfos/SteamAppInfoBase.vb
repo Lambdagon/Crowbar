@@ -77,6 +77,8 @@ Public Class SteamAppInfoBase
 		steamAppInfos.Add(anAppInfo)
 		anAppInfo = New ZombiePanicSourceSteamAppInfo()
 		steamAppInfos.Add(anAppInfo)
+		anAppInfo = New FortressConnectedSteamAppInfo()
+		steamAppInfos.Add(anAppInfo)
 
 		Return steamAppInfos
 	End Function
