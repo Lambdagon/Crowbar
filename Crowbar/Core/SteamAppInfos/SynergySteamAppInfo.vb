@@ -8,7 +8,7 @@ Public Class SynergySteamAppInfo
 	Public Sub New()
 		MyBase.New()
 
-		Me.ID = New AppId_t(3561600)
+		Me.ID = New AppId_t(17520)
 		Me.Name = "Synergy"
 		Me.UsesSteamUGC = True
 		Me.CanUseContentFolderOrFile = False
