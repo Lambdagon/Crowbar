@@ -454,6 +454,7 @@
     <Compile Include="Core\SteamAppInfos\HuntDownTheFreemanSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\FortressConnectedSteamAppInfo.vb" />
 	<Compile Include="Core\SteamAppInfos\SynergySteamAppInfo.vb" />
+	<Compile Include="Core\SteamAppInfos\HalfLife2SteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\JBModSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\WilsonChroniclesSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\MilitaryConflictVietnamSteamAppInfo.vb" />
@@ -780,6 +781,12 @@
       <DependentUpon>SynergyTagsUserControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Widgets\Publish SteamApp Tags\SynergyTagsUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+	<Compile Include="Widgets\Publish SteamApp Tags\HalfLife2TagsUserControl.Designer.vb">
+      <DependentUpon>HalfLife2TagsUserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\Publish SteamApp Tags\HalfLife2TagsUserControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Widgets\Publish SteamApp Tags\JBModTagsUserControl.Designer.vb">

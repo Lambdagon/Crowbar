@@ -81,6 +81,8 @@ Public Class SteamAppInfoBase
 		steamAppInfos.Add(anAppInfo)
 		anAppInfo = New SynergySteamAppInfo()
 		steamAppInfos.Add(anAppInfo)
+		anAppInfo = New HalfLife2SteamAppInfo()
+		steamAppInfos.Add(anAppInfo)
 
 		Return steamAppInfos
 	End Function
