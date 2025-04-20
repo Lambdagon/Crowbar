@@ -454,8 +454,7 @@
     <Compile Include="Core\SteamAppInfos\HuntDownTheFreemanSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\FortressConnectedSteamAppInfo.vb" />
 	<Compile Include="Core\SteamAppInfos\SynergySteamAppInfo.vb" />
-	<Compile Include="Core\SteamAppInfos\HalfLife2SteamAppInfo.vb" />
-    <Compile Include="Core\SteamAppInfos\JBModSteamAppInfo.vb" />
+	<Compile Include="Core\SteamAppInfos\JBModSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\WilsonChroniclesSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\MilitaryConflictVietnamSteamAppInfo.vb" />
     <Compile Include="Core\SteamAppInfos\BlackMesaSteamAppInfo.vb" />
