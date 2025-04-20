@@ -1,4 +1,4 @@
-# Crowbar
+# Crowbar <img src="https://raw.githubusercontent.com/Lambdagon/Crowbar/refs/heads/master/Crowbar/Resources/crowbar_icon_large.png" style="width:3%; height:3%;">
  Crowbar - GoldSource and Source Engine Modding Tool
  
  [Website](https://steamcommunity.com/groups/CrowbarTool)
